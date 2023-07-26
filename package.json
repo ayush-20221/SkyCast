@@ -1,0 +1,55 @@
+{
+  "name": "skycast",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Weather Forecasting using Vue.js, OpenWeatherMap.",
+  "author": "Ayush Agrawal <26.ayush.04@gmail.com>",
+  "scripts": {
+    "serve": "vue-cli-service serve --openssl-legacy-provider",
+    "build": "vue-cli-service build --openssl-legacy-provider",
+    "lint": "vue-cli-service lint"
+  },
+  "engines": {
+    "node": "<=18"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "core-js": "^3.6.4",
+    "less-loader": "^6.0.0",
+    "vue": "^2.6.11",
+    "vue-autosuggest": "^2.2.0",
+    "vue-feather-icons": "^5.1.0",
+    "vuex": "^3.3.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.3.0",
+    "@vue/cli-plugin-eslint": "^4.3.0",
+    "@vue/cli-service": "^4.3.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "imagemin": "^8.0.1",
+    "imagemin-jpegtran": "^7.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
